@@ -41,3 +41,11 @@ for pizza in pizzas:
 print("\nMy Friends Pizzas Are")
 for pizza in myfriendspizzas:
 	print(pizza)
+
+#tupples
+buffet = ("Bread","Beef", "Chicken", "Pork", "Shrimp")
+for meal in buffet:
+	print(meal)
+buffet = ("Bread", "Beef", "Chicken", "Pork", "Salmon")
+for meal in buffet:
+	print (meal)
