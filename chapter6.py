@@ -50,3 +50,17 @@ for people in myList:
 for hasto in favorite_languages.keys():
     if (hasto not in myList):
         print(f'{hasto}.....Please take the poll')
+
+# Nesting
+sam_details = {'fname': 'Sam', 'lname': 'David',
+               'age': 50, 'city': 'Des Moines'}
+dad_details = {'fname': 'Christian', 'lname': 'David',
+               'age': 88, 'city': 'Chennai'}
+people = [susan_details, sam_details, dad_details]
+for person in people:
+    print(person)
+fav_places = {'India': 'Taj', 'America': 'Big Sur', 'Japan': 'Mt Fuji'}
+
+susan_details['travel'] = 'india'
+#people[0] = {'travel': 'India'}
+print(susan_details)
